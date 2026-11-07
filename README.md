@@ -21,7 +21,6 @@ Note: The codebase is currently somewhat messy due to rapid experimentation and 
 |
 ├── pipeline.py   # pipeline integrate each component
 ├── vis.py/viz.py # for data visualiztion, it will be migrated into components/visualizer.py in the future
-├── evaluation.py # evaluation code. It will be migrated to components/evaluator.py in the future
 ├── README.md
 
 ```
