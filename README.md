@@ -1,6 +1,6 @@
 # MACHINE LERANING UPM MUCD
 
-Note: The codebase is currently somewhat messy due to rapid experimentation and ongoing development. It will be continuously refined over the coming weeks, with a focus on improving modularity, integration, and overall code organization. The project remains under active development.
+Note: The codebase is currently somewhat unstructured due to rapid experimentation and ongoing development. Experimental results are also distributed across multiple log files. In the coming weeks, the codebase will be progressively refactored to improve modularity, integration and overall organization. The project remains under active development.
 
 
 ## Project Structure
@@ -34,14 +34,14 @@ According to the lecture presentations, this report investigates 12 models for s
 1 | KNN	| KNeighborsClassifier | Distance metrics and neighborhood size |
 2 | Rule Induction | RIPPER | Rule complexity and interpretability |
 3 | Artificial Networks | MLP | Network architecture and representation |
-4 | SVM | Linear SVM / RBF SVM | Kernel selection and regularization |
+4 | SVM | RBF SVM | Kernel selection and regularization |
 5 | Classification Trees | CART | Tree depth and pruning |
-6 | Feature Subset Selection | RFE / Mutual Information / L1 | Feature relevance and dimensionality |
+6 | Feature Subset Selection | RFE / KBest / CFS | Feature relevance and dimensionality |
 7 | Logistic Regression | LogisticRegression | Regularization and linear decision boundaries |
 8 | Discriminant Analysis | LDA / QDA | Covariance estimation and distributional assumptions |
 9 | Bayesian (Discrete) | Categorical Naive Bayes | Discretization and categorical likelihoods |
 10 | Bayesian (Continuous) | Gaussian Naive Bayes | Continuous distribution assumptions |
-11 | Metaclassifiers | Random Forest / Boosting / Stacking | Ensemble strategies |
+11 | Metaclassifiers | Logistic Regression / Stacking | Ensemble strategies |
 
 ## Dataset Selection: Census-Income (KDD) From 1994 To 1995
 
