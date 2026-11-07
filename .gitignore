@@ -1,0 +1,16 @@
+.vscode
+*__pycache__*
+
+data/X_train.npz
+data/X_test.npz
+data/y_train.csv
+data/y_test.csv
+data/feature_names.csv
+data/preprocessor.joblib
+data/processed*
+
+evaluation/
+results/
+
+
+
