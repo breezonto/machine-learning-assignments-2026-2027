@@ -1,6 +1,6 @@
 # MACHINE LERANING UPM MUCD
 
-Note: The codebase is currently somewhat unstructured due to rapid experimentation and ongoing development. Experimental results are also distributed across multiple log files. In the coming weeks, the codebase will be progressively refactored to improve modularity, integration and overall organization. The project remains under active development.
+Note: The codebase is currently somewhat unstructured due to rapid experimentation and ongoing development. Experimental results are also distributed across multiple log files. In the coming weeks, the codebase will be progressively refactored to improve modularity, integration and overall organization. The log of results will be also refined. The project remains under active development.
 
 
 ## Project Structure
@@ -27,21 +27,21 @@ Note: The codebase is currently somewhat unstructured due to rapid experimentati
 
 ## Models & Algorithms
 
-According to the lecture presentations, this report investigates 12 models for supervised classification tasks.
+According to the lecture presentations, this report investigates 11 models for supervised classification tasks.
 
-| Approach | Representative algorithm | Main experimental dimension |
+| Approach | Classifier Model |  Representative algorithm |
 |---|---|---|
-1 | KNN	| KNeighborsClassifier | Distance metrics and neighborhood size |
-2 | Rule Induction | RIPPER | Rule complexity and interpretability |
-3 | Artificial Networks | MLP | Network architecture and representation |
-4 | SVM | RBF SVM | Kernel selection and regularization |
-5 | Classification Trees | CART | Tree depth and pruning |
-6 | Feature Subset Selection | RFE / KBest / CFS | Feature relevance and dimensionality |
-7 | Logistic Regression | LogisticRegression | Regularization and linear decision boundaries |
-8 | Discriminant Analysis | LDA / QDA | Covariance estimation and distributional assumptions |
-9 | Bayesian (Discrete) | Categorical Naive Bayes | Discretization and categorical likelihoods |
-10 | Bayesian (Continuous) | Gaussian Naive Bayes | Continuous distribution assumptions |
-11 | Metaclassifiers | Logistic Regression / Stacking | Ensemble strategies |
+1 | KNN	| KNeighborsClassifier |
+2 | Rule Induction | RIPPER |
+3 | Artificial Networks | MLP |
+4 | SVM | RBF SVM |
+5 | Classification Trees | CART |
+6 | Feature Subset Selection | RFE / KBest / CFS |
+7 | Logistic Regression | LogisticRegression |
+8 | Discriminant Analysis | LDA / QDA |
+9 | Bayesian (Discrete) | Categorical Naive Bayes |
+10 | Bayesian (Continuous) | Gaussian Naive Bayes |
+11 | Metaclassifiers | Logistic Regression / Stacking |
 
 ## Dataset Selection: Census-Income (KDD) From 1994 To 1995
 
